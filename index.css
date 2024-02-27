@@ -38,10 +38,30 @@ a:active {
   color: #4e4cd4;
 }
 
+.container{
+  width: 620px;
+  margin: 0 auto;
+}
+
 section {
   padding: 45px 0;
 }
 
+.section-two{
+  color: whitesmoke;
+  background-color: purple;
+}
+
 .main-image {
   width: 100%;
+}
+
+.feature-image{
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+.section-two-image-container{
+  display: flex;
+  justify-content: space-between;
 }
