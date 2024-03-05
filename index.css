@@ -5,10 +5,8 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #5f29a3;
-  padding: 45px 0px;
-}
+/* typography */
+
 
 h1 {
   color: whitesmoke;
@@ -25,6 +23,8 @@ h3 {
   font-size: 20px;
 }
 
+/* links */
+
 a {
   color: #ef5839;
   text-decoration: underline dotted;
@@ -38,9 +38,11 @@ a:active {
   color: #4e4cd4;
 }
 
-.container{
-  width: 620px;
-  margin: 0 auto;
+/* layout */
+
+header {
+  background-color: #5f29a3;
+  padding: 45px 0px;
 }
 
 section {
@@ -52,16 +54,30 @@ section {
   background-color: purple;
 }
 
-.main-image {
-  width: 100%;
+.container{
+  width: 620px;
+  margin: 0 auto;
 }
 
-.feature-image{
-  width: 300px;
-  border-radius: 4.6px;
+.main-image {
+  width: 100%;
 }
 
 .section-two-image-container{
   display: flex;
   justify-content: space-between;
 }
+
+
+.feature-image{
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+footer{
+  text-align: center;
+  padding: 45px 0;
+  color: #5f29a3;
+}
+
+
