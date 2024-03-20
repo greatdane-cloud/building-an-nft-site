@@ -7,6 +7,10 @@ body {
 
 /* typography */
 
+h1, h3{
+  margin: 0;
+}
+
 
 h1 {
   color: whitesmoke;
@@ -23,6 +27,10 @@ h3 {
   font-size: 20px;
 }
 
+p{
+  line-height: 23px;
+}
+
 /* links */
 
 a {
@@ -30,28 +38,62 @@ a {
   text-decoration: underline dotted;
 }
 
-a:hover {
+a:hover, a:active  {
   color: #d4b44c;
 }
 
-a:active {
-  color: #4e4cd4;
+.btn-dark,
+.btn-mid,
+.btn-light{
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+   /*inline-block elements are crucial in styling buttons.  */
 }
+
+.btn-dark{
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid{
+  background-color: #f0eeff;
+  color: #5f29a3;
+}
+
+.btn-light{
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover,
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active{
+
+  background-color: #f3e885;
+  color:
+}
+
 
 /* layout */
-
-header {
-  background-color: #5f29a3;
+header, section, footer{
   padding: 45px 0px;
+
 }
 
-section {
-  padding: 45px 0;
+header, .section-two {
+  background-color: #5f29a3;
+  
 }
 
 .section-two{
   color: whitesmoke;
-  background-color: purple;
+  
 }
 
 .container{
@@ -76,7 +118,6 @@ section {
 
 footer{
   text-align: center;
-  padding: 45px 0;
   color: #5f29a3;
 }
 
